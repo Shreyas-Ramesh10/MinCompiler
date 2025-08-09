@@ -9,7 +9,7 @@ int compile_file(const char* filename, const char* out_filename, int flags) //Wh
     if(!process)
         return COMPILER_FAILED_WITH_ERRORS;
 
-        // Perform lexical analysis
+        // Perform lexical analysis test
 
         // Perform parsing
 
