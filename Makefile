@@ -19,3 +19,7 @@ all: ${OBJECTS}
 clean:
 	rm ./main
 	rm -rf ${OBJECTS}
+	
+clean_windows:
+	del /Q main.exe
+	del /Q $(subst /,\,$(OBJECTS))
